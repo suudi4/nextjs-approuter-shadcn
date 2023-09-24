@@ -4,10 +4,9 @@ const users={ "callers": [ { "id": "001", "name": "George Davis", "phoneNumber":
   
  
 export async function GET(request: Request) {
-  const { searchParams } = new URL(request.url)
-  const id = searchParams.get('id')
+  
  
-//   const product = await JSON.stringify(users)
+  const product =  JSON.stringify(users)
  
-  return NextResponse.json({ users })
+  return NextResponse.json({ product })
 }
