@@ -7,7 +7,7 @@ export async function GET(request: Request) {
   const { searchParams } = new URL(request.url)
   const id = searchParams.get('id')
  
-  const product = await JSON.stringify(users)
+//   const product = await JSON.stringify(users)
  
-  return NextResponse.json({ product })
+  return NextResponse.json({ users })
 }
