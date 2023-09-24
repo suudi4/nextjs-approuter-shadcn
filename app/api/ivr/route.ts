@@ -6,7 +6,7 @@ const users={ "callers": [ { "id": "001", "name": "George Davis", "phoneNumber":
 export async function GET(request: Request) {
   
  
-  const product =  JSON.stringify(users)
+
  
-  return NextResponse.json({ product })
+  return NextResponse.json({ users })
 }
