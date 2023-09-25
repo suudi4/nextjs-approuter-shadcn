@@ -7,7 +7,7 @@ export default function Home() {
 
       <h1>This is a just a demo site for exploring how IVR response can be shared back with client using API
 
-        {process.env.FB_ACCESSTOKEN}
+        
       </h1>
       
     </main>
