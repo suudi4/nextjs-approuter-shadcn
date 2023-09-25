@@ -1,7 +1,7 @@
 import Image from 'next/image'
 
 export default function Home() {
-  console.log(process.env.fb_accesstoken)
+  console.log(process.env.FB_ACCESSTOKEN)
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
 
